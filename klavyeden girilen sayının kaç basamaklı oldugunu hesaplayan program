@@ -1,0 +1,6 @@
+bsmk=0
+a=int(input("basamagı hesaplanacak sayi:"))
+while a>0:
+    bsmk+=1
+    a//=10
+    print("basamak sayisi:{}".format(bsmk))
