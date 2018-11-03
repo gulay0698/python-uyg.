@@ -1,0 +1,10 @@
+dizi=[]
+y=0
+z=10
+while y<10:
+    x=int(input("10 tane sayi gir(kalan {}):".format(z)))
+    z-=1
+    dizi.append(x)
+    y+=1
+    print("en kucuk sayi:", min(dizi))
+    print("en buyuk sayi:", max(dizi))
