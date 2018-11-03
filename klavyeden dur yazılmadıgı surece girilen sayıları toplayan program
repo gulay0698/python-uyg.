@@ -1,0 +1,11 @@
+print("sayi girin:" "\n" "durmak için dur yazınız...")
+toplam = 0
+userinput = 0
+while True:
+    userinput = input("sayi:")
+    if userinput == 'dur': 
+        break
+        elif userinput != 'dur':
+            val = int(userinput)
+            toplam += val
+            print(toplam)
