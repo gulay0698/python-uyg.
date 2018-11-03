@@ -1,0 +1,9 @@
+tplm=0
+liste=[]
+for i in range(1000):
+    if i%5==0 and i%7!=0:
+        print(i)
+        tplm+=i
+        liste.append(i)
+        
+        print(liste)
