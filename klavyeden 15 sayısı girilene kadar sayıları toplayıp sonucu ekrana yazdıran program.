@@ -1,0 +1,8 @@
+toplam = 0
+while True:
+    a=int(input("sayi gir..."))
+       toplam+=a
+        if a ==15:
+        toplam -=15
+    break
+    print(toplam)
