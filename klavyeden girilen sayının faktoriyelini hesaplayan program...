@@ -1,0 +1,6 @@
+faktoriyel=1
+a=int(input("sayıyı giriniz:"))
+if a>0:
+    for i in range(1,a+1):
+        faktoriyel*=i
+        print(faktoriyel)
